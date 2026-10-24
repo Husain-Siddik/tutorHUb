@@ -16,10 +16,12 @@ import Login from "./pages/Login";
 import StudentDashboard from "./pages/student/StudentDashboard";
 import TutorDashboard from "./pages/tutor/TutorDashboard";
 import AdminDashboard from "./pages/admin/AdminDashboard";
+import Errorpage from "./pages/ErrorPage/Errorpage";
 
 const router = createBrowserRouter([
   {
     path: "/",
+    errorElement: <Errorpage />,
     element: <PublicLayout />,
     children: [
       {
