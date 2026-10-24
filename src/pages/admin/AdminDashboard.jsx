@@ -3,7 +3,7 @@
 const AdminDashboard = () => {
     return (
         <div>
-            thisiis admin dasboard
+            this  is admin dasboard
         </div>
     );
 };
