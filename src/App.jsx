@@ -17,6 +17,7 @@ import StudentDashboard from "./pages/student/StudentDashboard";
 import TutorDashboard from "./pages/tutor/TutorDashboard";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import Errorpage from "./pages/ErrorPage/Errorpage";
+import Register from "./pages/SIgnUP";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,11 @@ const router = createBrowserRouter([
       {
         path: "login",
         element: <Login />,
+      },
+
+      {
+        path: "signup",
+        element: <Register />,
       },
     ],
   },
