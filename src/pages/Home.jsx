@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import Hero from "../Components/Home/Hero";
 import Subjects from "../Components/Home/Subjects";
 import Features from "../Components/Home/Features";
+import Faq from "../Components/Home/Faq";
 
 const Home = () => {
 
@@ -73,6 +74,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Faq />
 
       {/* Final CTA */}
 
